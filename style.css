@@ -1,0 +1,56 @@
+/* header */
+* {
+  margin-top: 0px;
+}
+body {
+  background-image: linear-gradient(45deg, aqua, white, aqua);
+  margin: 0 auto;
+}
+header {
+  background-color: black;
+  height: 30px;
+}
+ul li {
+  margin-top: 5px;
+  display: inline-block;
+}
+a {
+  font-size: 15px;
+  padding-right: 30px;
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: yellow;
+}
+/* content */
+main {
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.slider {
+  padding-bottom: 10px;
+}
+.dessert {
+  float: left;
+
+}
+p {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 15px;
+  text-align: justify;
+  column-fill: balance;
+  column-count: 4;
+  column-gap: 20px;
+  column-rule: 5px double black;
+}
+/* footer */
+.footer {
+  padding-top: 10px;
+  height: 25px;
+  background-color: black;
+  text-align: center;
+  font-size: 10px;
+  color: white;
+}
